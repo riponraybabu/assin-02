@@ -55,12 +55,55 @@ main > section{
 @media screen and( max-width: 576px) {
     .navbar,
     .nav-links,
-    .fresh{
+    .fresh
+    .gallery-row{
+        width: 100%;
         flex-direction: column;
     }
  
 .img-container{
+    width: 100%;
     grid-template-columns: repeat(1,1fr);
 
 }
+}
+.gallery-title{
+    align-items: center;
+}
+.ripon {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+
+.image-box {
+  width: 150px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-box p {
+  margin-top: 10px;
+  font-weight: bold;
+  
+}
+.btn{
+    background-color: #E95A08;
+    padding: 20px 15px;
 }
